@@ -26,7 +26,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "en",
+    fallbackLng: "zh-CN",
     debug: import.meta.env.NODE_ENV === "development",
 
     // Define supported languages explicitly to prevent 404 errors
