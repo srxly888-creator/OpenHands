@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/OpenHands/docs/main/openhands/static/img/logo.png" alt="Logo" width="200">
-  <h1 align="center" style="border-bottom: none">OpenHands: AI-Driven Development</h1>
+  <h1 align="center" style="border-bottom: none">OpenHands: AI 驱动开发</h1>
 </div>
 
 
@@ -10,9 +10,10 @@
   <a href="https://github.com/OpenHands/OpenHands/blob/main/LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-20B2AA?style=for-the-badge" alt="MIT License"></a>
   <a href="https://docs.google.com/spreadsheets/d/1wOUdFCMyY6Nt0AIqF705KN4JKOWgeI4wUGUP60krXXs/edit?gid=811504672#gid=811504672"><img src="https://img.shields.io/badge/SWEBench-77.6-00cc00?logoColor=FFE165&style=for-the-badge" alt="Benchmark Score"></a>
   <br/>
-  <a href="https://docs.openhands.dev/sdk"><img src="https://img.shields.io/badge/Documentation-000?logo=googledocs&logoColor=FFE165&style=for-the-badge" alt="Check out the documentation"></a>
-  <a href="https://arxiv.org/abs/2511.03690"><img src="https://img.shields.io/badge/Paper-000?logoColor=FFE165&logo=arxiv&style=for-the-badge" alt="Tech Report"></a>
+  <a href="https://docs.openhands.dev/sdk"><img src="https://img.shields.io/badge/文档-000?logo=googledocs&logoColor=FFE165&style=for-the-badge" alt="Check out the documentation"></a>
+  <a href="https://arxiv.org/abs/2511.03690"><img src="https://img.shields.io/badge/论文-000?logoColor=FFE165&logo=arxiv&style=for-the-badge" alt="Tech Report"></a>
 
+  <p><strong>🇨🇳 中文版</strong> | <a href="README_EN.md">English</a></p>
 
   <!-- Keep these links. Translations will automatically update with the README. -->
   <a href="https://www.readme-i18n.com/OpenHands/OpenHands?lang=de">Deutsch</a> |
@@ -28,59 +29,55 @@
 
 <hr>
 
-🙌 Welcome to OpenHands, a [community](COMMUNITY.md) focused on AI-driven development. We’d love for you to [join us on Slack](https://dub.sh/openhands).
+🙌 欢迎来到 OpenHands，一个专注于 AI 驱动开发的[社区](COMMUNITY.md)。我们很希望你能[加入我们的 Slack](https://dub.sh/openhands)。
 
-There are a few ways to work with OpenHands:
+有以下几种方式可以使用 OpenHands：
 
 ### OpenHands Software Agent SDK
-The SDK is a composable Python library that contains all of our agentic tech. It's the engine that powers everything else below.
+SDK 是一个可组合的 Python 库，包含我们所有的智能体技术。它是驱动下面所有其他内容的核心引擎。
 
-Define agents in code, then run them locally, or scale to 1000s of agents in the cloud.
+在代码中定义智能体，然后在本地运行，或者在云端扩展到数千个智能体。
 
-[Check out the docs](https://docs.openhands.dev/sdk) or [view the source](https://github.com/OpenHands/software-agent-sdk/)
+[查看文档](https://docs.openhands.dev/sdk) 或 [查看源码](https://github.com/OpenHands/software-agent-sdk/)
 
 ### OpenHands CLI
-The CLI is the easiest way to start using OpenHands. The experience will be familiar to anyone who has worked
-with e.g. Claude Code or Codex. You can power it with Claude, GPT, or any other LLM.
+CLI 是开始使用 OpenHands 最简单的方式。体验将类似于使用 Claude Code 或 Codex 的用户。你可以使用 Claude、GPT 或任何其他 LLM 来驱动它。
 
-[Check out the docs](https://docs.openhands.dev/openhands/usage/run-openhands/cli-mode) or [view the source](https://github.com/OpenHands/OpenHands-CLI)
+[查看文档](https://docs.openhands.dev/openhands/usage/run-openhands/cli-mode) 或 [查看源码](https://github.com/OpenHands/OpenHands-CLI)
 
 ### OpenHands Local GUI
-Use the Local GUI for running agents on your laptop. It comes with a REST API and a single-page React application.
-The experience will be familiar to anyone who has used Devin or Jules.
+使用 Local GUI 在你的笔记本电脑上运行智能体。它附带 REST API 和单页 React 应用程序。体验将类似于使用 Devin 或 Jules 的用户。
 
-[Check out the docs](https://docs.openhands.dev/openhands/usage/run-openhands/local-setup) or view the source in this repo.
+[查看文档](https://docs.openhands.dev/openhands/usage/run-openhands/local-setup) 或在这个仓库中查看源码。
 
 ### OpenHands Cloud
-This is a deployment of OpenHands GUI, running on hosted infrastructure.
+这是在托管基础设施上运行的 OpenHands GUI 部署。
 
-You can try it for free using the Minimax model by [signing in with your GitHub or GitLab account](https://app.all-hands.dev).
+你可以通过[使用 GitHub 或 GitLab 账户登录](https://app.all-hands.dev)免费试用 Minimax 模型。
 
-OpenHands Cloud comes with source-available features and integrations:
-- Integrations with Slack, Jira, and Linear
-- Multi-user support
-- RBAC and permissions
-- Collaboration features (e.g., conversation sharing)
+OpenHands Cloud 附带源代码可用的功能 and 集成：
+- 与 Slack、Jira 和 Linear 的集成
+- 多用户支持
+- RBAC 和权限
+- 协作功能（例如，对话共享）
 
 ### OpenHands Enterprise
-Large enterprises can work with us to self-host OpenHands Cloud in their own VPC, via Kubernetes.
-OpenHands Enterprise can also work with the CLI and SDK above.
+大型企业可以与我们合作，通过 Kubernetes 在自己的 VPC 中自托管 OpenHands Cloud。
+OpenHands Enterprise 也可以使用上面的 CLI 和 SDK。
 
-OpenHands Enterprise is source-available--you can see all the source code here in the enterprise/ directory,
-but you'll need to purchase a license if you want to run it for more than one month.
+OpenHands Enterprise 是源代码可用的——你可以在这里的 enterprise/ 目录中看到所有源代码，但如果你想运行超过一个月，你需要购买许可证。
 
-Enterprise contracts also come with extended support and access to our research team.
+企业合同还附带扩展支持和访问我们研究团队的机会。
 
-Learn more at [openhands.dev/enterprise](https://openhands.dev/enterprise)
+在 [openhands.dev/enterprise](https://openhands.dev/enterprise) 了解更多
 
-### Everything Else
+### 其他
 
-Check out our [Product Roadmap](https://github.com/orgs/openhands/projects/1), and feel free to
-[open up an issue](https://github.com/OpenHands/OpenHands/issues) if there's something you'd like to see!
+查看我们的[产品路线图](https://github.com/orgs/openhands/projects/1)，如果你有想看到的东西，请随时[提出问题](https://github.com/OpenHands/OpenHands/issues)！
 
-You might also be interested in our [evaluation infrastructure](https://github.com/OpenHands/benchmarks), our [chrome extension](https://github.com/OpenHands/openhands-chrome-extension/), or our [Theory-of-Mind module](https://github.com/OpenHands/ToM-SWE).
+你可能还会对我们的[评估基础设施](https://github.com/OpenHands/benchmarks)、[Chrome 扩展](https://github.com/OpenHands/openhands-chrome-extension/)或[心智理论模块](https://github.com/OpenHands/ToM-SWE)感兴趣。
 
-All our work is available under the MIT license, except for the `enterprise/` directory in this repository (see the [enterprise license](enterprise/LICENSE) for details).
-The core `openhands` and `agent-server` Docker images are fully MIT-licensed as well.
+我们所有的工作都在 MIT 许可下可用，除了本仓库中的 `enterprise/` 目录（详情请参见[企业许可证](enterprise/LICENSE)）。
+核心的 `openhands` 和 `agent-server` Docker 镜像也是完全 MIT 许可的。
 
-If you need help with anything, or just want to chat, [come find us on Slack](https://dub.sh/openhands).
+如果你需要任何帮助，或者只是想聊天，[来 Slack 找我们](https://dub.sh/openhands)。
